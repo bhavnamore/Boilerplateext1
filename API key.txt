@@ -1,0 +1,1 @@
+https://openweathermap.org/api  -->  API --> (Scroll down)Current Weather data --> API Call(city,apikey)[For url] -->  In profile section(api keys) --> Sign In --> (Add key name)Create key --> Check status active or not
