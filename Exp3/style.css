@@ -1,0 +1,219 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensures body takes up the full height */
+}
+
+/* Background Image with proper size and no repeat */
+.b1 {
+    background-image: url("https://img.freepik.com/premium-photo/view-computer-laptop-coffee-cup-glasses-white-background-with-copy-space_35674-5978.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 60px; /* Pushes the content below the navbar */
+    height: 100vh; /* Ensures the background image covers the full screen */
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Keeps navbar above other content */
+}
+.side{
+    margin-left:auto;
+    display:flex;
+    justify-content:space-around;
+    width:50%;
+    font-family:"Comic Sans MS";
+    font-size:20px;
+}
+.side:hover{
+    color:rgb(155, 106, 41);
+}
+.navbar-brand{
+    font-size:35px;
+    font-weight:bolder;
+    font-family:"Merriweather";
+}
+.intro{
+    font-size:50px;
+    font-weight:bold;
+    height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    margin-left:80px;
+}
+
+.high1{
+    color:#1464aa;
+    font-family:"Merriweather";
+}
+.high2{
+    color:#1464aa;
+}
+.fadeText{
+    animation:fadeInOut 3s infinite;
+    font-size:25px;
+}
+@keyframes fadeInOut{
+    0%{
+        opacity:1;
+    }
+    40%{
+        opacity:0.5;
+    }
+    60%{
+        opacity:0;
+    }
+    80%{
+        opacity:0.5;
+    }
+    100%{
+        opacity:1;
+    }
+}
+.side .nav-link:hover{
+    font-size:1.3rem;
+    color:rgb(144, 134, 134);
+}
+.b2{
+    background-image:url("https://img.freepik.com/free-vector/futuristic-background-design_23-2148503793.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.imgdiv{
+    border:4px solid white;
+    height:400px;
+    width:400px;
+    margin-top:10%;
+    margin-left:10%;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    border-radius:25px;
+}
+.imgdiv:hover{
+    border-color:rgb(109, 223, 223);
+}
+.img{
+    height:150px;
+    width:150px;
+    border:1px solid white;
+    border-radius:50%;
+    margin-top:10px;
+}
+.imgintro{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-weight:bolder;
+    font-family:"Comic Sans MS";
+    font-size:17px;
+    color:rgb(214, 160, 95);
+}
+.imgintro .introskill{
+    text-align:center;
+}
+.introabout{
+    position:absolute;
+    top:28%;
+    right:10%;
+    width:40vw;
+    color:rgb(169, 155, 136);
+    text-align:justify;
+    gap:10px;
+}
+.introabout .p1{
+    display:flex;
+    gap:3px;
+}
+.introabout .p1 h1{
+    font-size:50px;
+}
+.introabout .p2{
+    font-size:22px;
+}
+.abthead{
+    color:rgb(211, 156, 213)
+}
+.project{
+    margin-top:5%;
+    width:100vw;
+    margin-left:6%;
+}
+.procard1:hover{
+    opacity:0.8;
+}
+.skillsimg{
+    display:flex;
+    justify-content:space-around;
+    margin-top:5%;
+}
+#img1{
+    border-radius:50%;
+}
+#img1:hover{
+    opacity:0.8;
+    cursor:pointer;
+}
+.skillsimg2{
+    display:flex;
+    justify-content:space-around
+}
+#img2{
+    border-radius:50%;
+}
+#img2:hover{
+    opacity:0.8;
+    cursor:pointer;
+}
+.resbut{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    margin-top:10%;
+}
+.resbut button{
+    padding:20px;
+    border-radius:25px;
+    cursor:pointer;
+    font-size:20px;
+    font-weight:bolder;
+}
+.resbut button:hover{
+    font-size:1.3rem;
+}
+.contactme{
+    margin-top:8%;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content: flex-start;
+    color:#92b8d9;
+    gap:20px;
+    margin-left:5%;
+    text-align:justify;
+}
+.contsvg{
+    display:flex;
+    gap:15px;
+}
+.svg{
+    transition:transform 0.3s ease;
+    font-size:30px;
+}
+.svg:hover{
+    transform:scale(1.2);
+    color:white;
+}
+body{
+    background-color:#fff;
+} 
+body.dark-mode{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Black_Palette_Graphic_Created_by_Trisorn_Triboon.jpg/1280px-Black_Palette_Graphic_Created_by_Trisorn_Triboon.jpg");
+    background-size:cover;
+}
