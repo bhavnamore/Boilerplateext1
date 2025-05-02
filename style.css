@@ -1,0 +1,41 @@
+body{
+    font-family:'Playfair Display',sans-serif;
+    background-image:url("https://img.freepik.com/premium-photo/dark-cloudy-sky-twilight-rainy-season_29059-306.jpg?semt=ais_hybrid&w=740");
+    background-size:cover;
+    /* display:flex;
+    /* justify-content:center;
+    align-items:center; */
+    height:100vh;
+}
+.heading{
+    font-weight:bolder;
+    font-size:80px;
+    font-family:'Comic Sans MS', sans-serif;
+    text-align:center;
+    color:rgb(7, 7, 61)
+}
+.main{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    font-size:larger;
+}
+#city{
+    padding:5px;
+    border-radius:10px;
+}
+button{
+    margin-left:45%;
+    margin-top:4%;
+    padding:5px;
+    font-size:20px;
+    border-radius:25px;
+    cursor:pointer;
+}
+button:hover{
+    font-size:1.3rem;
+}
+#weather{
+    margin-left:45%;
+}
