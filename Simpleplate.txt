@@ -1,0 +1,30 @@
+import express from 'express';  // If using ES Modules, otherwise use require for CommonJS
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
+
+app.listen(3000, () => {
+  console.log('Server running on port 3000');
+});
+
+
+
+
+
+
+
+App.jsx
+import React from 'react';
+
+function App() {
+  const name = "John";
+  return (
+    <div>
+      <h1>Hello, {name}!</h1>
+    </div>
+  );
+}
+
+export default App;
