@@ -1,2 +1,0 @@
-MONGO_URI= mongodb+srv://bhavna16953:Bhavn@29@cluster0.hown3e2.mongodb.net/
-
